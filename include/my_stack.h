@@ -1,0 +1,25 @@
+#ifndef _MY_STACK_H
+#define _MY_STACK_H
+#define MAXSIZE 10
+
+
+void push();
+void pop();
+
+// The capacity of the stack
+int stack_capacity();
+
+// Current available size of the stack
+int stack_size();
+
+
+/*
+ * return 0/1 to check if stack is empty or full
+ * 0 - No
+ * 1 - Yes
+ */
+int empty();
+int full();
+
+
+#endif //_MY_STACK_H
